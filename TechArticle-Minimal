@@ -1,0 +1,23 @@
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "TechArticle",
+    "dependencies": "all, dependencies, needed",
+    "proficiencyLevel": "n00b",
+    "author": "Author name",
+    "datePublished": "2016-1-1",
+    "headline": "Headline",
+    "image": {
+        "@type": "imageObject",
+        "url": "http://example.com/images/image.png",
+        "height": "600",
+        "width": "800"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Publisher name",
+        "logo": {
+            "@type": "imageObject",
+            "url": "http://example.com/images/logo.png"
+        }
+    }
+}</script>
