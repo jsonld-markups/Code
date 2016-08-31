@@ -1,0 +1,6 @@
+<script type="application/ld+json">{
+    "@context":"http://www.schema.org",
+    "@type":"Movie",
+    "name": "Movie Name",
+	"image": "http://example.com/image/movie.pgn"
+}</script>
