@@ -4,13 +4,18 @@
 	"headline": "Brand new JSON-LD website launched!",
     "author": "Andrew Ders Smith",
     "datePublished": "29 October, 2016",
-    "image": "http://examples.com/image.png",
+    "image": {
+    	"@type": "imageObject",
+        "url": "http://example.com/image.png",
+        "height": "400",
+        "width": "300"
+    },
     "publisher": {
     	"@type": "Organization",
-        "name": "JSON-LD Examples",
+        "name": "Publisher Name",
         "logo": {
         	"@type": "imageObject",
-            "url": "http://jsonld-examples.com/images/JSON-LD-logo.png"
+            "url": "http://example.com/images/logo.png"
         }
     }
 }</script>
