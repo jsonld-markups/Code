@@ -1,0 +1,16 @@
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+	"@type": "NewsArticle",
+	"headline": "Brand new JSON-LD website launched!",
+    "author": "Andrew Ders Smith",
+    "datePublished": "29 October, 2016",
+    "image": "http://examples.com/image.png",
+    "publisher": {
+    	"@type": "Organization",
+        "name": "JSON-LD Examples",
+        "logo": {
+        	"@type": "imageObject",
+            "url": "http://jsonld-examples.com/images/JSON-LD-logo.png"
+        }
+    }
+}</script>
