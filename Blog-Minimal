@@ -1,0 +1,11 @@
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+	"@type": "Blog",
+	"name": "Blog name",
+	"url": "https://example.com",
+    "description": "Same as meta description",
+    "publisher": {
+    	"@type": "Organization",
+        "name": "Blog Name"
+    }
+}</script>
