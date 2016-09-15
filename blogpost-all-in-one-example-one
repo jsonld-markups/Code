@@ -1,0 +1,83 @@
+<script type="application/ld+json">{
+    "@context":"http://www.schema.org",
+    "@type":"WebPage",
+    "@id": "https://jsonld-examples.com/articles/all-in-one-schema-with-json-ld.php",
+    "breadcrumb":{  
+        "@type":"BreadcrumbList",
+        "itemListElement":[  
+            {  
+                "@type":"ListItem",
+                "position":"1",
+                "item":{  
+                    "@type":"WebSite",
+                    "@id":"https://jsonld-examples.com/",
+                    "name":"JSON-LD Examples"
+                }
+            },
+            {  
+                "@type":"ListItem",
+                "position":"2",
+                "item":{  
+                    "@type":"WebPage",
+                    "@id":"https://jsonld-examples.com/articles/index.php",
+                    "name":"Articles"
+                }
+            },
+            {  
+                "@type":"ListItem",
+                "position":"3",
+                "item":{  
+                    "@type":"WebPage",
+                    "@id":"https://jsonld-examples.com/articles/all-in-one-schema-with-json-ld.php",
+                    "name":"All in one Schema using JSON-LD. WebPage and Article"
+                }
+            }
+        ]
+    },
+    "inLanguage":"en-US",
+    "isFamilyFriendly":"yes",
+    "mainEntity":{
+        "@type":"TechArticle",
+        "@id": "https://jsonld-examples.com/schema.org/code/article-markup.php#main_content",
+        "mainEntityOfPage": "true",
+        "datePublished":"August 28, 2016",
+        "dateModified":"September 10, 2016",
+        "headline": "All in one WebPage and Article",
+        "description":"Description, I use the same as meta name",
+        "keywords":"JSON-LD, schema.org, blog",
+        "Publisher":{  
+            "@type":"Organization",
+            "@id": "https://jsonld-examples.com#organization",
+            "name":"JSON-LD Examples",
+            "url":"https://jsonld-examples.com"
+        },
+        "Author":{  
+            "@type":"person",
+            "@id": "https://jsonld-examples.com#andrewderssmith",
+            "name":"Andrew Ders Smith"
+        },
+        "image":[
+            {  
+                "@type":"imageObject",
+                "url":"https://jsonld-examples.com/images/social/big-all-ine-one-blog.png",
+                "height":"630",
+                "width":"1200",
+                "isFamilyFriendly":"yes"
+            },
+            {  
+                "@type":"imageObject",
+                "url":"https://jsonld-examples.com/images/social/medium-all-ine-one-blog.png",
+                "height":"220",
+                "width":"440",
+                "isFamilyFriendly":"yes"
+            },
+            {  
+                "@type":"imageObject",
+                "url":"http://jsonld-examples.com/images/social/small-all-ine-one-blog.png",
+                "height":"150",
+                "width":"150",
+                "isFamilyFriendly":"yes"
+            }
+        ]
+    }
+}</script>
