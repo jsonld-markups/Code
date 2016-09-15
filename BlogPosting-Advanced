@@ -1,0 +1,48 @@
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Headline, your H1",
+    "description": "Your meta description",
+    "datePublished": "June 4, 2016",
+    "datemodified": "June 5, 2016",
+    "mainEntityOfPage": "True",
+    "image": {
+        "@type": "imageObject",
+        "url": "http://example.com/images/image.png",
+        "height": "600",
+        "width": "800"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Publisher name",
+        "logo": {
+            "@type": "imageObject",
+            "url": "http://example.com/images/logo.png"
+        }
+    },
+    "author": {
+    	"@type": "Person",
+        "name": "Andrew Ders Smith"
+    },
+    "sharedContent": [
+		{
+        	"@type":"WebPage",
+        	"headline":"Checkout this page!",
+        	"url":"https://forum.domain.org/post/53453/",
+        	"author":{
+          		"@type":"Person",
+          		"name":"Aweseom User"
+        	}
+      	},
+      	{
+        	"@type":"WebPage",
+        	"headline":"New blogpost you should read",
+        	"url":"https://reddit.com/url/comment/",
+        	"author":{
+          		"@type":"Person",
+          		"name":"Reddit user"
+        	}
+        }
+    ],
+    "articleBody": "Copy the whole blog post here, line by line."
+}</script>

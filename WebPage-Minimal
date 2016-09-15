@@ -1,0 +1,7 @@
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+	"@type": "WebPage",
+	"name": "A name. I use same as title tag",
+	"url": "http://example.com",
+	"description": "Description. I just use the same description as meta data"
+}</script>

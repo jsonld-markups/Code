@@ -1,0 +1,15 @@
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+	"@type": "Blog",
+	"name": "Blog name",
+	"url": "https://example.com",
+    "description": "Same as meta description",
+    "sameAs": [
+    	"https://facebook.com/BlogPage",
+        "https://plus.google/BlogPage"
+    ],
+    "publisher": {
+    	"@type": "Organization",
+        "name": "Blog Name"
+    }
+}</script>

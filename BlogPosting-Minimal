@@ -1,0 +1,21 @@
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "author": "Author name",
+    "datePublished": "February 3, 2015",
+    "headline": "Headline, your H1",
+    "image": {
+        "@type": "imageObject",
+        "url": "https://example.com/images/image.png",
+        "height": "640",
+        "width": "800"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Publisher name",
+        "logo": {
+            "@type": "imageObject",
+            "url": "http://example.com/images/logo.jpg"
+        }
+    }
+}</script>

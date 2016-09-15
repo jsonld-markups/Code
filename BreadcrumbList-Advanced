@@ -1,0 +1,45 @@
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+	{
+		"@type": "ListItem",
+		"position": 1,
+		"item": {
+      "@type": "WebSite",
+			"@id": "http://example.com",
+      "image": "http://examples.com/images/tumbnail-website.png",
+			"name": "Website Name"
+		}
+	},
+	{
+		"@type": "ListItem",
+		"position": 2,
+		"item": {
+      "@type": "WebPage",
+			"@id": "http://example.com/news",
+      "image": "http://examples.com/images/tumbnail-news.png",
+			"name": "News"
+		}
+	},
+	{
+		"@type": "ListItem",
+		"position": 3,
+		"item": {
+      "@type": "WebPage",
+			"@id": "http://example.com/news/puppets/",
+      "image": "http://examples.com/images/tumbnail-puppets.png",
+			"name": "Puppets"
+		}
+	},
+	{
+		"@type": "ListItem",
+		"position": 4,
+		"item": {
+      "@type": "WebPage",
+			"@id": "http://example.com/news/puppets/awesome-new-puppet-discovered.html",
+      "image": "http://examples.com/images/tumbnail-awesome-new-puppet-discovered.png",
+			"name": "Awesome new puppet discovered!"
+		}
+	}] 
+}</script>

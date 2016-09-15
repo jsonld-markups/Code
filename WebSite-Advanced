@@ -1,0 +1,12 @@
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+	"name": "website name",
+	"url": "http://example.com/",
+    "sameAs": ["https://facebook.com/page", "https://plus.google.com/site", "https://twitter.com/name"],
+    "potentialAction": {
+    	"@type": "SearchAction",
+    	"target": "https://example.com/pages/search_results?q={search_term}",
+    	"query-input": "required name=search_term"
+	}
+}</script>
